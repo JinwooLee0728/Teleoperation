@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>joint_visualizer_pkg</name>
+  <version>0.0.1</version>
+  <description>
+    Dynamixel JointState publisher for RViz visualization
+  </description>
+
+  <maintainer email="jinwoolee0728@snu.ac.kr">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime & build dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+
+  <!-- (Optional but recommended) -->
+  <exec_depend>robot_state_publisher</exec_depend>
+
+  <!-- Export -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
